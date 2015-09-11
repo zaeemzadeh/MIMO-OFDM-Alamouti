@@ -1,0 +1,26 @@
+<block>
+  <name>Preamble Detector</name>
+  <key>mimo_preamble_detector</key>
+  <category>MIMO</category>
+  <import>import mimo</import>
+  <make>mimo.preamble_detector()</make>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+    <vlen>1</vlen>
+  </sink>
+  <sink>
+    <name>corr</name>
+    <type>complex</type>
+    <vlen>1</vlen>
+  </sink>
+  <sink>
+    <name>treshold</name>
+    <type>float</type>
+    <vlen>1</vlen>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

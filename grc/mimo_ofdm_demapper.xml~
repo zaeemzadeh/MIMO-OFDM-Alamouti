@@ -1,0 +1,29 @@
+<block>
+  <name>Ofdm Demapper</name>
+  <key>mimo_ofdm_demapper</key>
+  <category>MIMO</category>
+  <import>import mimo</import>
+  <make>mimo.ofdm_demapper($occupied_carriers)</make>
+  <param>
+    <name>Occupied Carriers</name>
+    <key>occupied_carriers</key>
+    <type>raw</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+    <vlen>$occupied_carriers</vlen>
+  </sink>
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>

@@ -1,0 +1,27 @@
+<block>
+  <name>Ofdm insert preamble tagged</name>
+  <key>mimo_ofdm_insert_preamble_tagged</key>
+  <category>MIMO</category>
+  <import>import mimo</import>
+  <make>mimo.ofdm_insert_preamble_tagged($fft_length, $preamble)</make>
+  <param>
+    <name>Fft_length</name>
+    <key>fft_length</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Preamble</name>
+    <key>preamble</key>
+    <type>raw</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+    <vlen>$fft_length</vlen>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+    <vlen>$fft_length</vlen>
+  </source>
+</block>

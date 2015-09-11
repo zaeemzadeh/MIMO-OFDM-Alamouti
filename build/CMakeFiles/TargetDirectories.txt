@@ -1,0 +1,9 @@
+/home/alireza/Desktop/GNU/gr-mimo/build/swig/CMakeFiles/_mimo_swig.dir
+/home/alireza/Desktop/GNU/gr-mimo/build/swig/CMakeFiles/_mimo_swig_swig_tag.dir
+/home/alireza/Desktop/GNU/gr-mimo/build/lib/CMakeFiles/gnuradio-mimo.dir
+/home/alireza/Desktop/GNU/gr-mimo/build/swig/CMakeFiles/mimo_swig_swig_doc.dir
+/home/alireza/Desktop/GNU/gr-mimo/build/apps/CMakeFiles/pygen_apps_9a6dd.dir
+/home/alireza/Desktop/GNU/gr-mimo/build/python/CMakeFiles/pygen_python_b12b9.dir
+/home/alireza/Desktop/GNU/gr-mimo/build/swig/CMakeFiles/pygen_swig_ea47c.dir
+/home/alireza/Desktop/GNU/gr-mimo/build/lib/CMakeFiles/test-mimo.dir
+/home/alireza/Desktop/GNU/gr-mimo/build/CMakeFiles/uninstall.dir

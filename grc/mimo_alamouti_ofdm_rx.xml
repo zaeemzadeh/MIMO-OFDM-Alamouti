@@ -1,0 +1,42 @@
+<block>
+  <name>Alamouti Ofdm Decoder</name>
+  <key>mimo_alamouti_ofdm_rx</key>
+  <category>MIMO</category>
+  <import>import mimo</import>
+  <make>mimo.alamouti_ofdm_rx($occupied_carriers, $fft_length, $cplen)</make>
+  <param>
+    <name>Occupied Carriers</name>
+    <key>occupied_carriers</key>
+    <type>raw</type>
+  </param>
+  <param>
+    <name>Fft Length</name>
+    <key>fft_length</key>
+    <type>raw</type>
+  </param>
+  <param>
+    <name>CP Len</name>
+    <key>cplen</key>
+    <type>raw</type>
+  </param>
+  <sink>
+    <name>flag</name>
+    <type>byte</type>
+    <vlen>$fft_length</vlen>
+  </sink>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+    <vlen>$fft_length</vlen>
+    <nports>2</nports>
+  </sink>
+  <source>
+    <name>flag</name>
+    <type>byte</type>
+  </source>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+    <vlen>$occupied_carriers</vlen>
+  </source>
+</block>

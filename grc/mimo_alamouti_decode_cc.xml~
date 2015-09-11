@@ -1,0 +1,16 @@
+<block>
+  <name>Alamouti Decoder</name>
+  <key>mimo_alamouti_decode_cc</key>
+  <category>MIMO</category>
+  <import>import mimo</import>
+  <make>mimo.alamouti_decode_cc()</make>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+    <nports>2</nports>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>
