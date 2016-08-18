@@ -25,4 +25,4 @@ This module consists of blocks requirung for building a MIMO system in GNU-Radio
 * GNU Radio Companion: http://gnuradio.org/redmine/projects/gnuradio/wiki/GNURadioCompanion
 * How to create out-of-tree modules: http://gnuradio.org/redmine/projects/gnuradio/wiki/OutOfTreeModules
 * How to code blocks: http://gnuradio.org/redmine/projects/gnuradio/wiki/BlocksCodingGuide
-* Tagged Stram Blocks: http://gnuradio.org/doc/doxygen/page_tagged_stream_blocks.html
+* Tagged Stream Blocks: http://gnuradio.org/doc/doxygen/page_tagged_stream_blocks.html
