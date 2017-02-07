@@ -5,6 +5,7 @@
 Alireza Zaeemzadeh __ *University of Tehran* __ 2014
 
 This module consists of blocks requirung for building a MIMO system in GNU-Radio. The system is tested on USRP1 devices.
+Thanks for your interest in my code. This github project contains many different mini-projects. The one that I actually tested on hardware and worked successfully is the MIMO OFDM with Alamouti coding (which was the main project and a part of my senior design for the B.S. degree). All the other designs are starting points of other projects in the lab that I used to work in. So, all the designs with MAC layer (such as “FinalDesign”) and designs with QPSK modulation (such as “qpsk_mimo_usrp”) are not complete works and probably do not work on hardware immediately (you have to work on them a little bit). 
 
 ##Testbed Specifications:
 * SDR Platform: USRP1
