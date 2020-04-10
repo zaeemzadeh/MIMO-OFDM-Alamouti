@@ -8,7 +8,7 @@ This module consists of blocks requirung for building a MIMO system in GNU-Radio
 Thanks for your interest in my code. This github project contains many different mini-projects. The one that I actually tested on hardware and worked successfully is the MIMO OFDM with Alamouti coding (which was the main project and a part of my senior design for the B.S. degree). All the other designs are starting points of other projects in the lab that I used to work in. So, all the designs with MAC layer (such as “FinalDesign”) and designs with QPSK modulation (such as “qpsk_mimo_usrp”) are not complete works and probably do not work on hardware immediately (you have to work on them a little bit). 
 
 
-**This is one of my oldest repositories. So I cannot maintain it and resolve the issues since I do not have the necessary hardware and the interest to do so. If you can maintain it I will be happy to add you as a collaborator. **
+**This is one of my oldest repositories. So I cannot maintain it and resolve the issues since I do not have the necessary hardware and the interest to do so. If you can maintain it I will be happy to add you as a collaborator.**
 
 ## Building Instruction
 ```bash
